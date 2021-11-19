@@ -2,7 +2,7 @@
 
 Structure of a django project
 ```
-TechArt3/
+TriArt3/
 │
 ├── mac/
 │   │
@@ -16,7 +16,7 @@ TechArt3/
 │   ├── tests.py
 │   └── views.py
 │
-├── TechArt3/
+├── TriArt3/
 │   ├── __init__.py
 │   ├── asgi.py
 │   ├── settings.py
@@ -43,3 +43,4 @@ Start the app with the following command
 ```
  •(env) $ python manage.py startapp mac
 ```
+💫 Start the project if you liked it :)
