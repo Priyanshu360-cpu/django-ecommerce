@@ -1,7 +1,6 @@
 # Getting Started
 
-Structure of a django project 
-
+Structure of a django project\n
 TechArt3/
 
 │
