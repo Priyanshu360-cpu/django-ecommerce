@@ -25,7 +25,7 @@ TriArt3/
 │
 └── manage.py
 ```
-Define a virtual env and activate it to start things of
+Define a virtual env and activate it 
 ```
  •$python3 -m venv env
 
