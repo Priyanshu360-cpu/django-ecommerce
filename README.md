@@ -1,8 +1,8 @@
 # Getting Started
 
-Structure of a django project\n
+Structure of a django project
 TechArt3/
-
+```
 │
 ├── mac/
 │   │
@@ -42,7 +42,7 @@ TechArt3/
 │
 
 └── manage.py
-
+```
 Define a virtual env and activate it to start things of
 
  •$python3 -m venv env
