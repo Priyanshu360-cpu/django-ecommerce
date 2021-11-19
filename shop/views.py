@@ -3,7 +3,7 @@ from .models import Product, Contact, Orders, OrderUpdate
 from math import ceil
 import json
 from django.views.decorators.csrf import csrf_exempt
-# Create your views here.
+
 from django.http import HttpResponse
 MERCHANT_KEY = 'Your-Merchant-Key-Here'
 
@@ -20,7 +20,7 @@ def index(request):
     return render(request, 'shop/index.html', params)
 
 def searchMatch(query, item):
-    '''return true only if query matches the item'''
+    
     if query in item.desc.lower() or query in item.product_name.lower() or query in item.category.lower():
         return True
     else:
@@ -85,7 +85,7 @@ def tracker(request):
 
 def productView(request, myid):
 
-    # Fetch the product using the id
+    
     product = Product.objects.filter(id=myid)
     return render(request, 'shop/prodView.html', {'product':product[0]})
 
@@ -108,8 +108,7 @@ def checkout(request):
         update.save()
         thank = True
         id = order.order_id
-        # return render(request, 'shop/checkout.html', {'thank':thank, 'id': id})
-        # Request paytm to transfer the amount to your account after payment by user
+        #You can add payment gateway here
         param_dict = {
 
                 'MID': 'Your-Merchant-Id-Here',
@@ -130,7 +129,7 @@ def checkout(request):
 
 @csrf_exempt
 def handlerequest(request):
-    # paytm will send you post request here
+    
     form = request.POST
     response_dict = {}
     for i in form.keys():
