@@ -4,7 +4,7 @@ Structure of a django project
 ```
 TriArt3/
 │
-├── mac/
+├── shop/
 │   │
 │   ├── migrations/
 │   │   └── __init__.py
@@ -41,7 +41,7 @@ Setup your project to start things of
 ```
 Start the app with the following command
 ```
- •(env) $ python manage.py startapp mac
+ •(env) $ python manage.py startapp shop
 ```
 
  **Start the project if you liked it :)**
