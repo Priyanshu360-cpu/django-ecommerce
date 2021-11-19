@@ -31,7 +31,7 @@ Define a virtual env and activate it
 
  •$source env/bin/activate
 ```
-Install django and it dependencies
+Install django and its dependencies
 ```
  •(env) $ python -m pip install django
 ```
@@ -44,4 +44,4 @@ Start the app with the following command
  •(env) $ python manage.py startapp shop
 ```
 
- **Start the project if you liked it :)**
+ **Star the project if you liked it :)**
