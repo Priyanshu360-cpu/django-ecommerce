@@ -43,4 +43,5 @@ Start the app with the following command
 ```
  •(env) $ python manage.py startapp mac
 ```
-💫 Start the project if you liked it :)
+
+ *Start the project if you liked it :)*
