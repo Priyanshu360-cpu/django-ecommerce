@@ -37,11 +37,11 @@ Install django and it dependencies
 ```
 Setup your project to start things of
 ```
- •(env) $ django-admin startproject TechArt3
+ •(env) $ django-admin startproject TriArt3
 ```
 Start the app with the following command
 ```
  •(env) $ python manage.py startapp mac
 ```
 
- *Start the project if you liked it :)*
+ **Start the project if you liked it :)**
