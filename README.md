@@ -5,9 +5,7 @@ Structure of a django project
 TechArt3/
 
 │
-
 ├── mac/
-
 │   │
 
 │   ├── migrations/
